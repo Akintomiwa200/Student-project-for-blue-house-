@@ -89,11 +89,15 @@
     padding-top: 40px;
     padding-bottom: 40px;
     height: 200px;
+    font-family: jose;
     background-color: #F6F5FF;
 }
 .container h2{
     font-size: 35px;
     color:#101750;
+}
+.container p{
+    font-family: lato;
 }
 .container .pro{
     color: #FB2E86;
