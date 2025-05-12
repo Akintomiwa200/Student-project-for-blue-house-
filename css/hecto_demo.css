@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+
 *{
   text-decoration: none;
   padding: 0;
@@ -5,13 +8,131 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  
   background: #fefefe;
   margin: 0;
   padding: 2rem;
   box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+  overflow-x: hidden;
     
 }
+.icon p{
+  color: #fefefe;
+}
+
+.active{
+  color: #FB2E86;
+  
+}
+.home-nav .nav-btn{
+  padding-left: 10rem;
+}
+.nav-btn{
+  padding-top: 10px;
+}
+.home-nav .topva{
+  display: flex;
+  justify-content: space-between;
+  background-color: #7E33E0;
+  padding: 6px;
+  font-size: .6rem;
+  color: #F1F1F1;
+  padding-left: 10rem;
+  padding-right: 22rem;
+  
+  
+  
+}
+.home-nav .topva .icon{
+  display: flex;
+  gap: .5rem;
+  cursor: pointer;
+  position: relative;
+  font-family: Josefin Sans;
+}
+.home-nav .topva .icon img{
+  width: .6rem;
+}
+.home-nav .topva .icon p{
+  position: relative;
+  left: .2rem;
+}
+.home-nav .topva .seclect{
+  display: flex;
+  gap: .5rem;
+  
+  
+}
+.home-nav .topva .seclect select{
+  background-color: #7E33E0;
+  color: #F1F1F1;
+  font-size: .6rem;
+  border: none;
+}
+
+.home-nav .nav-btn{
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+  
+}
+.home-nav .nav-btn a{
+  text-decoration: none;
+  font-size: .8rem;
+  margin-top: 15px;
+}
+.home-nav .nav-btn .head{
+  font-size: 1.5rem;
+}
+.home-nav .nav-btn select{
+  border: none;
+  background-color: white;
+  color: #FB2E86;
+  padding: 0px;
+}
+.home-nav .nav-btn .input{
+  display: flex;
+}
+.home-nav .nav-btn .input img{
+  height: 29px;
+  background-color:#FB2E86;
+  
+
+  
+  
+}
+.home-nav .nav-btn .input input{
+  height: 0.2rem;
+  outline: none;
+  padding-left: 20px;
+  bottom: .6rem;
+  border: solid 1px #E7E6EF;
+  margin-left: 10rem;
+}
+.home-nav .bars{
+  width: 100%;
+  height: 150px;
+  background-color: #F6F5FF;
+  padding-left: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.home-nav .bars p{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #101750;
+}
+.home-nav .bars span{
+  margin-left: .3rem;
+  font-size: .7rem;
+}
+.home-nav .bars .span{
+  color: #FB2E86;
+}
+
 
 .all{
  
@@ -20,6 +141,7 @@ body {
 }
 .all h2{
   margin-bottom: 30px;
+  font-weight: lighter;
 
 }
 .form-container {
@@ -110,7 +232,7 @@ input[type="text"] {
 
 .container{
   display: flex;
-  padding: 20px 90px;
+  padding: 20px 10rem;
   
   
 }
@@ -200,9 +322,9 @@ input[type="text"] {
   align-items: flex-start;
   background-color: #EEEFFB;
   color: #a47a7a;
-  margin-top: 300px;
-  height: 400px;
-  padding: 20px 60px;
+  margin-top: 250px;
+  height: 350px;
+  padding: 10px 60px;
   
 }
 
@@ -210,11 +332,12 @@ input[type="text"] {
   flex: 1;
   margin: 10px;
   padding-left: 20px;
+  padding-right: 10px;
 }
 
 .footer-section h2{
   font-family: "Josefin Sans", sans-serif;
-  margin-top: 94px;
+  margin-top: 50px;
   margin-bottom: 20px;
   font-size: 22px;
   color: #000;
@@ -226,7 +349,7 @@ input[type="text"] {
 .footer-section a{
   color: #8A8FB9;
   font-family: "Lato", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 ul{
@@ -248,7 +371,7 @@ li{
 .footer-section p{
   font-family: "Lato", sans-serif;
   color: #8A8FB9;
-  font-size: 16px;
+  font-size: 14px;
   margin-top: 10px;
   margin-left: 10px;
 }
@@ -261,17 +384,17 @@ li{
 
 .input-items input{
   flex: 1;
-  padding:0 20px;
-  width: 377px;
-  height: 44px;
+  padding:0 15px;
+  width: 250px;
+  height: 29px;
   margin-top: 20px;
   margin-left: 12px;
   border: none;
 }
 
 .signup-btn{
-  width: 135px;
-  height: 42px;
+  width: 70px;
+  height: 29px;
   background-color: #FB2E86;
   color: #fff;
   font-size: 17px;
