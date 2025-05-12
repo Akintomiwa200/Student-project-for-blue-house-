@@ -150,6 +150,7 @@ background:#f8f8f8;
   width: 90%;
   margin-top: 50px;
   padding: 50px 30px;
+  margin-right: 3rem;
  
     
     
@@ -242,11 +243,13 @@ input[type="text"] {
   align-items: center;
   border-bottom: 1px solid #ddd;
   padding: 15px 0;
+  
 }
 
 .product-list{
   margin-top: 100px;
   width: 25%;
+  margin-left: 2rem;
 }
 
 .product img {
@@ -412,3 +415,152 @@ li{
   color: #9DA0AE;
   padding: 20px;
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* Container adjustment */
+  .container {
+    flex-direction: column;
+    padding: 20px 5%;
+  }
+
+  .all,
+  .product-list {
+    width: 100%;
+  }
+
+  
+  .home-nav .topva {
+    
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .home-nav .nav-btn {
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-left: 2rem;
+  }
+
+  .home-nav .nav-btn .input {
+    flex: 1;
+    margin-left: 0;
+    
+  }
+  
+
+  .home-nav .nav-btn .input input {
+    width: 100%;
+  }
+
+  
+  .form-container {
+    width: 100%;
+    padding: 30px 20px;
+  }
+
+  .name-fields,
+  .country-postal {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+ 
+  
+
+  .product img {
+    margin-bottom: 10px;
+  }
+
+ 
+  .footer {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .footer-section {
+    width: 45%;
+    margin-bottom: 30px;
+  }
+
+  .input-items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+  .input-items input,
+  .signup-btn {
+  padding: 0.5rem 1rem;
+  background-color: #FB2E86;
+  color: #fff;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+  .last-footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+
+
+
+@media (max-width: 768px) {
+  body{
+    margin: 0;
+  }
+  .container {
+    flex-direction: column;
+    padding: 20px;
+    margin: 0;
+  }
+
+  .home-nav .topva{
+    padding: 7px;
+    font-size: .4rem;
+  }
+  .home-nav .topva .icon img{
+    width: .4rem;
+  }
+  .form-container{
+    margin: 0%;
+  }
+
+  .all,
+  .product-list {
+    width: 100%;
+  }
+
+  .home-nav .nav-btn {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 2rem;
+    gap: 10px;
+  }
+
+  .footer {
+    flex-direction: column;
+    padding: 20px;
+    height: auto;
+  }
+   .input-items input,
+  .signup-btn {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .footer-section {
+    margin-bottom: 30px;
+  }
+}
+
+
+
