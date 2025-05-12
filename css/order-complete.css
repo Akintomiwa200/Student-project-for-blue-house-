@@ -1,56 +1,140 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
   
-  .container {
-    margin-left: 170px;
-    margin-right: 100px;
-    background-color: #F6F5FF;
-    height: 286px;
-    padding-bottom: 50px;
-  }
-  
-  .container > div {
-    margin-top: 221px;
+  .home-nav{
     display: flex;
-    align-items: center;
-  }
+    justify-content: space-around;
+    gap: 1.5rem;
+    background-color: #7E33E0;
+    padding: 10px;
+    color: #fff;
+
+}
+
+.nav-btn{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.nav-btn .logo{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #0D0E43;
+  font-weight: 700;
+  font-size: 34px;
+  margin-right: 30px;
+  margin-left: 120px;
+}
+
+.nav-btn a{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.nav-btn select{
+  background-color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FB2E86;
+  border: none;
+  margin-right: 30px;
+  margin-left: 20px;
+}
+.nav-btn input{
+  margin-left: 130px;
+  width: 317px;
+  height: 40px;
+}
+.nav-btn button{
+  background-color: #FB2E86;
+  width: 51px;
+  height: 40px;
+}
+
+.input-container {
+  position: relative;
+  display: inline-block;
+}
+
+.search-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.search-btn img {
+  width: 16px;
+  height: 16px;
+}
+
+
+.icon{
+  display: flex;
+  gap: 1rem;
+
+}
+.icon select{
+  background-color: #7E33E0;
+  color: #fff;
+  border: none;
+}
+
+.container{
+    margin-top: 30px;
+    margin-left: 170px;
+    margin-right: 90px;
+    background-color: #F6F5FF;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 50px;
+}
   
-  .shop-logo {
+.shop-logo {
     margin-right: 20px;
-  }
+}
   
-  .shop-logo h1 {
+.shop-logo h1 {
     font-family: "Josefin Sans", sans-serif;
     color: #101750;
     font-size: 36px;
     font-weight: 700;
-  }
+}
   
-  .nav ul {
+.nav ul {
     display: flex;
     padding: 0;
     margin: 0;
-  }
+}
   
-  .nav a {
+.nav a {
     color: #000;
     font-size: 16px;
     font-family: "Lato", sans-serif;
     text-decoration: none;
     list-style: none;
-  }
+}
   
-  .nav li {
+.nav li {
     list-style: none;
-  }
+}
   
-  .pink {
+.pink {
     color: #FB2E86;
-  }
+}
   
-  .pink a {
+.pink a {
     color: inherit;
   }
 .container1{
@@ -104,7 +188,6 @@
     margin-bottom: 100px;
 }
 
-
 .sponsors{
     display: flex;
     justify-content: center;
@@ -113,22 +196,62 @@
 }
 
 @media (max-width: 767px) {
-    .container {
-      margin-left: 20px;
-      margin-right: 20px;
+
+  .container {
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
     }
-    .container1{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 25px;
+
+  .container ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
     }
-    .content{
+  .content{
+    flex-direction: column;
+    }
+  .sponsors {
+    margin: 30px;
+    padding: 0;
+    width: 100%;
+    }
+
+  .home-nav{
+      display: flex;
       flex-direction: column;
     }
-    .sponsors {
-        margin: 30px;
-        padding: 0;
-        width: 100%;
-      }
+  .nav-btn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .nav-btn .logo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .nav-btn select{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .nav-btn a{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .nav-btn input, button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 35px;
+    padding: 0;
+  }
   }
