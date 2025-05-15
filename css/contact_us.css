@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&family=Lato:wght@100..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Lato", sans-serif;
+}
+
+h1, h2, h3, .head, .footer-section h1, .footer-section h2 {
+    font-family: "Josefin Sans", sans-serif;
+}
+.home-nav .nav-btn{
+    padding-left: 10rem;
+}
+.home-nav .topva{
+    display: flex;
+    justify-content: space-between;
+    background-color: #7E33E0;
+    padding: 6px;
+    font-size: .6rem;
+    color: #F1F1F1;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+    
+    
+}
+.home-nav .topva .icon{
+    display: flex;
+    gap: .5rem;
+    cursor: pointer;
+    position: relative;
+    font-family: "Josefin Sans";
+}
+.home-nav .topva .icon img{
+    width: .6rem;
+}
+.home-nav .topva .icon p{
+    position: relative;
+    left: .2rem;
+}
+.home-nav .topva .seclect{
+    display: flex;
+    gap: .5rem;
+    
+    
+}
+.home-nav .topva .seclect select{
+    background-color: #7E33E0;
+    color: #F1F1F1;
+    font-size: .6rem;
+    border: none;
+}
+
+.home-nav .nav-btn{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+    white-space: nowrap;
+    padding-right: 20%;
+    padding-left: 10%;
+    
+}
+.home-nav .nav-btn a{
+    text-decoration: none;
+    font-size: .8rem;
+}
+.home-nav .nav-btn .head{
+    font-size: 1.5rem;
+}
+.home-nav .nav-btn select{
+    border: none;
+    background-color: white;
+    color: #FB2E86;
+}
+.home-nav .nav-btn .input img{
+    width: 1.4rem;
+    background-color:#FB2E86;
+    position: relative;
+    bottom: .2rem;
+    
+    right: .4rem;
+}
+.home-nav .nav-btn .input input{
+    height: 25px ;
+    outline: none;
+    position: relative;
+    bottom: .6rem;
+    border: solid 1px #E7E6EF;
+}
+.home-nav .nav-btn .input{
+    padding-left: 180px;
+}
+.hero{
+    padding-left: 10%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 150px;
+    background-color: #F6F5FF;
+}
+.hero h2{
+    font-size: 30px;
+    color:#101750;
+}
+.hero .pro{
+    color: #FB2E86;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding-left: 10%;
+    padding-right: 15%;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    color: #0D134E;
+    background-color: #ffff;
+    font-size: 16px;
+}
+.container h2{
+    padding-bottom: 10px;
+}
+.head{
+    width: 60%;
+}
+.head .ellipe img{
+    width: 15px;
+}
+.ellipe{
+    margin-top: 20px;
+    gap: px;
+}
+.section{
+    width: 40%;
+    white-space: nowrap;
+}
+.selector{
+    display: flex;
+}
+.select{
+    display: flex;
+}
+.section .sec{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    align-items: left;
+}
+.sec img{
+    width: 20px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+    padding-left: 10%;
+    padding-right: 8%;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    color: #0D134E;
+}
+.main h2{
+    margin-bottom: 10px;
+}
+.box{
+    width: 50%;
+    
+}
+.box input{
+    width: 40%;
+    padding: 5px;
+    margin: 10px;
+    
+}
+.box .info{
+    margin-top: 40px;
+}
+.box .subject input{
+    width: 85%;
+}
+.sider{
+    width: 50%;
+}
+.textarea{
+    margin: 10px;
+}
+.btn{
+    padding-left: 10px;
+}
+.btn button{
+    padding: 5px;
+    color: #F6F5FF;
+    background-color: #FB2E86;
+}
+.sider img{
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #EEEFFB;
+    color: #a47a7a;
+    height: 400px;
+    
+}
+
+.footer-section{
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-section h2{
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 94px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #000;
+}
+
+.footer-section a{
+    text-decoration: none;
+}
+.footer-section a{
+    color: #8A8FB9;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.footer-section h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 38px;
+    margin-top: 95px;
+    color: #000;
+    margin-left: 10px;
+}
+.footer-section p{
+    font-family: "Lato", sans-serif;
+    color: #8A8FB9;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.input-items{
+    display: flex;
+    align-items: stretch;
+    overflow: hidden;
+}
+
+.input-items input{
+    flex: 1;
+    padding: 10px 20px;
+    width: 377px;
+    height: 44px;
+    margin-top: 20px;
+    margin-left: 12px;
+    border: none;
+}
+
+.signup-btn{
+    width: 135px;
+    height: 39px;
+    background-color: #FB2E86;
+    color: #fff;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.last-footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #E7E4F8;
+    color: #9DA0AE;
+    padding: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .home-nav .topva,
+    .home-nav .nav-btn,
+    .hero,
+    .container,
+    .main,
+    .footer,
+    .last-footer {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .home-nav .nav-btn {
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .container,
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box, .sider {
+        width: 100%;
+    }
+
+    .box input,
+    .box .subject input {
+        width: 90%;
+    }
+
+    .footer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+}
+
+/* Mobile Devices: max width 768px */
+@media screen and (max-width: 768px) {
+    .home-nav .topva {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        font-size: 0.5rem;
+    }
+
+    .home-nav .nav-btn {
+        display: flex;
+        flex-direction:row ;
+        justify-content: flex-start;
+        gap: 7px;
+        width: fit-content;
+        white-space: nowrap;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 20px;
+        margin-left: 50px;
+        margin-right: 0px;
+    }
+
+    .home-nav .nav-btn a{
+        font-size: 8px;
+        white-space: nowrap;
+    }
+
+    .home-nav .nav-btn .input{
+        display: none;
+    }
+
+    .home-nav .nav-btn select{
+        padding-left: 50px;
+    }
+
+    .hero h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+     .hero p{
+        text-align: center;
+        font-size: 14px;
+    }
+
+
+    .container,
+    .main {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .container h2{
+        white-space: nowrap;
+    }
+
+    .section,
+    .selector,
+    .select {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .box input,
+    .box .subject input {
+        width: 90%;
+    }
+
+    .input-items {
+        flex-direction: column;
+    }
+
+    .input-items input,
+    .signup-btn {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .signup-btn {
+        margin-top: 10px;
+    }
+
+    .last-footer {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .sider img {
+        width: 100%;
+    }
+
+    .footer {
+    flex-direction: column;
+    height: auto;
+  }
+  .footer-section {
+    text-align: center;
+    margin: px;
+    width: 100%;
+  }
+  .footer-section h1 {
+    margin-top: 20px;
+  }
+  .footer-section h2 {
+    margin-top: 20px;
+  }
+  .footer-section ul{
+    padding: 0;
+    text-align: center;
+  }
+
+  .footer-section li{
+    text-align: center;
+  }
+
+  .input-items input {
+    width: 100%;
+  }
+  .signup-btn {
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .last-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .last-footer .left, .last-footer .right {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .input-items input {
+    width: 100%;
+  }
+  .signup-btn {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .footer-section {
+    margin: 10px;
+  }
+}
+
+/* Small phones: max width 480px */
+@media screen and (max-width: 480px) {
+    .hero h2 {
+        font-size: 20px;
+    }
+
+    .home-nav .nav-btn a {
+        font-size: 12px;
+    }
+
+    .footer-section p,
+    .footer-section a,
+    .last-footer {
+        font-size: 13px;
+    }
+
+    .btn button {
+        width: 100%;
+    }
+}

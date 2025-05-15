@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&family=Lato:wght@100..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Lato", sans-serif;
+}
+
+h1, h2, h3, .head, .main, .footer-section h1, .footer-section h2 {
+    font-family: "Josefin Sans", sans-serif;
+}
+.home-nav .nav-btn{
+    padding-left: 10rem;
+}
+.home-nav .topva{
+    display: flex;
+    justify-content: space-between;
+    background-color: #7E33E0;
+    padding: 6px;
+    font-size: .6rem;
+    color: #F1F1F1;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+    
+    
+}
+.home-nav .topva .icon{
+    display: flex;
+    gap: .5rem;
+    cursor: pointer;
+    position: relative;
+    font-family: "Josefin Sans";
+}
+.home-nav .topva .icon img{
+    width: .6rem;
+}
+.home-nav .topva .icon p{
+    position: relative;
+    left: .2rem;
+}
+.home-nav .topva .seclect{
+    display: flex;
+    gap: .5rem;
+    
+    
+}
+.home-nav .topva .seclect select{
+    background-color: #7E33E0;
+    color: #F1F1F1;
+    font-size: .6rem;
+    border: none;
+}
+
+.home-nav .nav-btn{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+    padding-left: 10%;
+    
+}
+.home-nav .nav-btn a{
+    text-decoration: none;
+    font-size: .8rem;
+}
+.home-nav .nav-btn .head{
+    font-size: 1.5rem;
+}
+.home-nav .nav-btn select{
+    border: none;
+    background-color: white;
+    color: #FB2E86;
+}
+.home-nav .nav-btn .input img{
+    width: 1.4rem;
+    height: 1.5rem;
+    background-color:#FB2E86;
+    position: relative;
+    bottom: .1rem;
+    right: .4rem;
+}
+.home-nav .nav-btn .input input{
+    height: 25px;
+    outline: none;
+    position: relative;
+    bottom: .6rem;
+    border: solid 1px #c0bbe4;
+}
+.home-nav .nav-btn .input{
+    padding-left: 180px;
+}
+.container{
+    padding-left: 10%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 150px;
+    font-family: "josefine sans";
+    background-color: #F6F5FF;
+}
+.container h2{
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    color:#101750;
+}
+.container p{
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+}
+.container .pro{
+    color: #FB2E86;
+}
+.section{
+    display: flex;
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    gap: 10px;
+    box-shadow: 0 0 10px rgb(228, 227, 227);
+    background-color:#FFFFFF; 
+    color:#0D134E;
+    
+}
+.section img{
+    width: 90%;
+}
+.section .strike{
+    color: #FB2E86;
+}
+.star{
+    color:#FFC416;
+}
+.context{
+    padding: 20px;
+}
+.context img{
+    width: 5%;
+}
+.context h3{
+    font-size: 20px;
+}
+.cart{
+    margin-left: 40px;
+}
+.main{
+    padding: 20px;
+    padding-left:10%;
+    padding-right: 10%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-family:Josefin Sans;
+    color:#0D134E;
+    background-color: #F9F8FE;
+}
+.main .text{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    font-size: 40px;
+    color:#0D134E;
+    flex-wrap: nowrap;
+}
+.main .text p{
+    font-size: 20px;
+}
+main p{
+    font-size: 13px;
+    padding: 5px;
+}
+.main .varius{
+    padding: 15px;
+}
+.main .details{
+    padding: 15px;
+}
+.main .arrow{
+    font-weight: bold;
+    font-size: 24px;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: #0D134E;
+    
+}
+.bottom img{
+    width: 80%;
+}
+
+.butt{
+    padding-left: 10%;
+    padding-top: 40px;
+    font-size: 18px;
+    color: #0D134E;
+}
+
+.bottom p{
+    font-size: 13px;
+}
+.bottom_end{
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+
+}
+.bottom_end img{
+    width: 70%;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #EEEFFB;
+    color: #a47a7a;
+    height: 400px;
+    
+}
+
+.footer-section{
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-section h2{
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 94px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #000;
+}
+
+.footer-section a{
+    text-decoration: none;
+}
+.footer-section a{
+    color: #8A8FB9;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.footer-section h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 38px;
+    margin-top: 95px;
+    color: #000;
+    margin-left: 10px;
+}
+.footer-section p{
+    font-family: "Lato", sans-serif;
+    color: #8A8FB9;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.input-items{
+    display: flex;
+    align-items: stretch;
+    overflow: hidden;
+}
+
+.input-items input{
+    flex: 1;
+    padding: 10px 20px;
+    width: 377px;
+    height: 44px;
+    margin-top: 20px;
+    margin-left: 12px;
+    border: none;
+}
+
+.signup-btn{
+    width: 135px;
+    height: 39px;
+    background-color: #FB2E86;
+    color: #fff;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.last-footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #E7E4F8;
+    color: #9DA0AE;
+    padding: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .home-nav .topva,
+    .home-nav .nav-btn,
+    .container,
+    .section,
+    .main,
+    .bottom,
+    .butt,
+    .footer,
+    .last-footer {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .home-nav .nav-btn {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .container h2 {
+        font-size: 28px;
+    }
+
+    .main .text {
+        font-size: 30px;
+        flex-direction: column;
+    }
+}
+
+/* Mobile Devices */
+@media screen and (max-width: 768px) {
+    .home-nav .topva {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: .5rem;
+        padding: 10px;
+    }
+
+    .home-nav .nav-btn {
+        display: flex;
+        flex-direction:row ;
+        justify-content: flex-start;
+        gap: 7px;
+        width: fit-content;
+        white-space: nowrap;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 20px;
+        margin-left: 40px;
+        
+    }
+
+    .home-nav .nav-btn a{
+        font-size: 8px;
+        white-space: nowrap;
+    }
+
+    .home-nav .nav-btn .input{
+        display: none;
+    }
+
+    .home-nav .nav-btn select{
+        padding-left: 170px;
+    }
+
+
+    .home-nav .nav-btn .input{
+        display: none;
+    }
+    .container h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .container p{
+        text-align: center;
+    }
+
+    .section {
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .main .text {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .footer {
+    flex-direction: column;
+    height: auto;
+  }
+  .footer-section {
+    text-align: center;
+    margin: px;
+    width: 100%;
+  }
+  .footer-section h1 {
+    margin-top: 20px;
+  }
+  .footer-section h2 {
+    margin-top: 20px;
+  }
+  .footer-section ul{
+    padding: 0;
+    text-align: center;
+  }
+
+  .footer-section li{
+    text-align: center;
+  }
+
+  .input-items input {
+    width: 100%;
+  }
+  .signup-btn {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .last-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .last-footer .left, .last-footer .right {
+    margin-bottom: 10px;
+  }
+}
+
+/* Very Small Devices */
+@media screen and (max-width: 480px) {
+    .container h2 {
+        font-size: 20px;
+    }
+
+    .home-nav .nav-btn a,
+    .main p,
+    .bottom p {
+        font-size: 12px;
+    }
+
+    .footer-section h2,
+    .footer-section h1 {
+        font-size: 18px;
+    }
+
+    .footer-section p {
+        font-size: 14px;
+    }
+}
