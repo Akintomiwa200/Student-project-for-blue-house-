@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&family=Lato:wght@100..700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.home-nav{
-   
-    
+body {
+    font-family: "Lato", sans-serif;
+}
 
+h1, h2, h3, .head, .main, .footer-section h1, .footer-section h2 {
+    font-family: "Josefin Sans", sans-serif;
 }
 .home-nav .nav-btn{
     padding-left: 10rem;
@@ -18,8 +21,8 @@
     padding: 6px;
     font-size: .6rem;
     color: #F1F1F1;
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding-left: 10%;
+    padding-right: 10%;
     
     
     
@@ -29,7 +32,7 @@
     gap: .5rem;
     cursor: pointer;
     position: relative;
-    font-family: Josefin Sans;
+    font-family: "Josefin Sans";
 }
 .home-nav .topva .icon img{
     width: .6rem;
@@ -55,6 +58,7 @@
     display: flex;
     gap: 2rem;
     margin-top: 1rem;
+    padding-left: 10%;
     
 }
 .home-nav .nav-btn a{
@@ -71,33 +75,38 @@
 }
 .home-nav .nav-btn .input img{
     width: 1.4rem;
+    height: 1.5rem;
     background-color:#FB2E86;
     position: relative;
-    bottom: .2rem;
-    
+    bottom: .1rem;
     right: .4rem;
 }
 .home-nav .nav-btn .input input{
-    height: 1.1rem;
+    height: 25px;
     outline: none;
     position: relative;
     bottom: .6rem;
-    border: solid 1px #E7E6EF;
+    border: solid 1px #c0bbe4;
+}
+.home-nav .nav-btn .input{
+    padding-left: 180px;
 }
 .container{
     padding-left: 10%;
     padding-top: 40px;
     padding-bottom: 40px;
-    height: 200px;
-    font-family: jose;
+    height: 150px;
+    font-family: "josefine sans";
     background-color: #F6F5FF;
 }
 .container h2{
-    font-size: 35px;
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
     color:#101750;
 }
 .container p{
-    font-family: lato;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
 }
 .container .pro{
     color: #FB2E86;
@@ -110,7 +119,7 @@
     margin-top: 60px;
     margin-bottom: 50px;
     gap: 10px;
-    box-shadow:0 4px 8px rgba(#F6F4FD); 
+    box-shadow: 0 0 10px rgb(228, 227, 227);
     background-color:#FFFFFF; 
     color:#0D134E;
     
@@ -299,4 +308,157 @@ li{
     background-color: #E7E4F8;
     color: #9DA0AE;
     padding: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .home-nav .topva,
+    .home-nav .nav-btn,
+    .container,
+    .section,
+    .main,
+    .bottom,
+    .butt,
+    .footer,
+    .last-footer {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .home-nav .nav-btn {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .container h2 {
+        font-size: 28px;
+    }
+
+    .main .text {
+        font-size: 30px;
+        flex-direction: column;
+    }
+}
+
+/* Mobile Devices */
+@media screen and (max-width: 768px) {
+    .home-nav .topva {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: .5rem;
+        padding: 10px;
+    }
+
+    .home-nav .nav-btn {
+        display: flex;
+        flex-direction:row ;
+        justify-content: flex-start;
+        gap: 7px;
+        width: fit-content;
+        white-space: nowrap;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 20px;
+        margin-left: 40px;
+        
+    }
+
+    .home-nav .nav-btn a{
+        font-size: 8px;
+        white-space: nowrap;
+    }
+
+    .home-nav .nav-btn .input{
+        display: none;
+    }
+
+    .home-nav .nav-btn select{
+        padding-left: 170px;
+    }
+
+
+    .home-nav .nav-btn .input{
+        display: none;
+    }
+    .container h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .container p{
+        text-align: center;
+    }
+
+    .section {
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .main .text {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .footer {
+    flex-direction: column;
+    height: auto;
+  }
+  .footer-section {
+    text-align: center;
+    margin: px;
+    width: 100%;
+  }
+  .footer-section h1 {
+    margin-top: 20px;
+  }
+  .footer-section h2 {
+    margin-top: 20px;
+  }
+  .footer-section ul{
+    padding: 0;
+    text-align: center;
+  }
+
+  .footer-section li{
+    text-align: center;
+  }
+
+  .input-items input {
+    width: 100%;
+  }
+  .signup-btn {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .last-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .last-footer .left, .last-footer .right {
+    margin-bottom: 10px;
+  }
+}
+
+/* Very Small Devices */
+@media screen and (max-width: 480px) {
+    .container h2 {
+        font-size: 20px;
+    }
+
+    .home-nav .nav-btn a,
+    .main p,
+    .bottom p {
+        font-size: 12px;
+    }
+
+    .footer-section h2,
+    .footer-section h1 {
+        font-size: 18px;
+    }
+
+    .footer-section p {
+        font-size: 14px;
+    }
 }
