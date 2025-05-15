@@ -51,6 +51,8 @@
   margin-left: 130px;
   width: 317px;
   height: 40px;
+  border: 1px #cac4c4 solid;
+  padding: 10px;
 }
 .nav-btn button{
   background-color: #FB2E86;
@@ -169,8 +171,11 @@
     color: #fff;
     font-family: "Lato", sans-serif;
     border-radius: 3px;
+    border-color:  #FF1788;
     width: 208px;
     height: 59px;
+    cursor: pointer;
+  
 }
 
 .top-left{
