@@ -10,9 +10,7 @@
     align-items: flex-start;
     background-color: #EEEFFB;
     color: #a47a7a;
-    margin-top: auto;
-    height: 532px;
-    
+    margin-top: auto;    
 }
 
 .footer-section{
@@ -29,12 +27,10 @@
 }
 
 .footer-section a{
-    text-decoration: none;
-}
-.footer-section a{
     color: #8A8FB9;
     font-family: "Lato", sans-serif;
     font-size: 16px;
+    text-decoration: none;
 }
 
 ul{
@@ -63,13 +59,12 @@ li{
 
 .input-items{
     display: flex;
-    align-items: stretch;
-    overflow: hidden;
+    position: relative;
 }
 
 .input-items input{
     flex: 1;
-    padding: 10px 20px;
+    padding: 10px 140px 10px 20px;
     width: 377px;
     height: 44px;
     margin-top: 20px;
@@ -78,6 +73,10 @@ li{
 }
 
 .signup-btn{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
     width: 135px;
     height: 39px;
     background-color: #FB2E86;
@@ -85,8 +84,8 @@ li{
     font-size: 17px;
     font-family: "Roboto", sans-serif;
     border: none;
+    margin-top: 10px;
     border-radius: 3px;
-    margin-top: 20px;
     cursor: pointer;
 }
 
@@ -96,4 +95,60 @@ li{
     background-color: #E7E4F8;
     color: #9DA0AE;
     padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    height: auto;
+  }
+  .footer-section {
+    text-align: center;
+    margin: px;
+    width: 100%;
+  }
+  .footer-section h1 {
+    margin-top: 20px;
+  }
+  .footer-section h2 {
+    margin-top: 20px;
+  }
+  .footer-section ul{
+    padding: 0;
+    text-align: center;
+  }
+
+  .footer-section li{
+    text-align: center;
+  }
+
+  .input-items input {
+    width: 100%;
+  }
+  .signup-btn {
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .last-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .last-footer .left, .last-footer .right {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .input-items input {
+    width: 100%;
+  }
+  .signup-btn {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .footer-section {
+    margin: 10px;
+  }
 }
