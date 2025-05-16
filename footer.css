@@ -98,6 +98,11 @@ li{
 }
 
 @media (max-width: 768px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
   .footer {
     flex-direction: column;
     height: auto;
@@ -122,13 +127,13 @@ li{
     text-align: center;
   }
 
-  .input-items input {
+  .input-items input{
     width: 100%;
   }
-  .signup-btn {
-    position: relative;
-    width: 100%;
-    margin-top: 50px;
+  .input-items button{
+    width: 80px;
+    margin-right: 20px;
+    padding: 0;
   }
   .last-footer {
     flex-direction: column;
