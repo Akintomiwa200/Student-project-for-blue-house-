@@ -38,9 +38,6 @@ body {
   color: #F1F1F1;
   padding-left: 10rem;
   padding-right: 22rem;
-  
-  
-  
 }
 .menu{
   display: flex;
@@ -119,10 +116,6 @@ body {
 .home-nav .nav-btn .input img{
   height: 27px;
   background-color:#FB2E86;
-  
-
-  
-  
 }
 .home-nav .nav-btn .input input{
   height: .5px;
